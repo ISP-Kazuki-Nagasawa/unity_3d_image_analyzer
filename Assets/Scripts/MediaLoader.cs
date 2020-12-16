@@ -202,7 +202,7 @@ public class MediaLoader : MonoBehaviour
 
     // Video player RenderTexture size
     // NOTE: Video player から取得したサイズだと点群数が多くなってしまうので、別途指定した小さなサイズで描画
-    // NOTE: デフォルトは SD サイズ (720 x 480)
-    private int videoRenderWidth = 720;
+    // NOTE: デフォルトは 640 x 480
+    private int videoRenderWidth = 640;
     private int videoRenderHeight = 480;
 }
